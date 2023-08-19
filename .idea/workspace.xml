@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6b8f8f-2cb2-4f0b-a244-6153c32512b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/reponse/ResponseHtmlServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/reponse/ResponseJsonServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +64,7 @@
       <recent name="C:\Users\ADMIN\IdeaProjects\servlet\servlet\src\main\resources\static" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.servlet.basic.reponse" />
       <recent name="hello.servlet.basic.request" />
     </key>
   </component>
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692421983802</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ADD : Html Response">
+      <created>1692422222151</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692422222151</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -191,7 +198,8 @@
     <MESSAGE value="ADD: API message body - Json" />
     <MESSAGE value="ADD: ResponseHeaderServlet" />
     <MESSAGE value="REFACTOR : add response writer" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR : add response writer" />
+    <MESSAGE value="ADD : Html Response" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : Html Response" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
