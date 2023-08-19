@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 @WebServlet(name = "responseHeaderServlet", urlPatterns = "/response-header")
 public class ResponseHeaderServlet extends HttpServlet {
@@ -23,7 +24,10 @@ public class ResponseHeaderServlet extends HttpServlet {
         response.setHeader("Pragma", "no-cache");
         response.setHeader("my-header", "hello");
 
-        redirect(response);
+        //redirect(response);
+
+        PrintWriter writer = response.getWriter();
+        writer.println("ok");
     }
     //편의 메서드
     private void content(HttpServletResponse response) {
