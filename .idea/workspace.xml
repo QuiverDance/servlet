@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6b8f8f-2cb2-4f0b-a244-6153c32512b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestBodyStringServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/HelloData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestBodyJsonServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +63,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ADMIN\IdeaProjects\servlet\servlet\src\main\resources\static\basic" />
       <recent name="C:\Users\ADMIN\IdeaProjects\servlet\servlet\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.servlet.basic.request" />
     </key>
   </component>
   <component name="RunManager">
@@ -137,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692420088727</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ADD: API string message body">
+      <created>1692420546077</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692420546077</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -147,7 +158,8 @@
     <MESSAGE value="ADD: request header servlet" />
     <MESSAGE value="ADD: GET Http data" />
     <MESSAGE value="ADD: POST HTML form" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD: POST HTML form" />
+    <MESSAGE value="ADD: API string message body" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD: API string message body" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
