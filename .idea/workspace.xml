@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6b8f8f-2cb2-4f0b-a244-6153c32512b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/resources/static/basic/hello-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestBodyStringServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692419547673</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ADD: POST HTML form">
+      <created>1692420088727</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692420088727</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,7 +146,8 @@
     <MESSAGE value="ADD: index &amp; basic html" />
     <MESSAGE value="ADD: request header servlet" />
     <MESSAGE value="ADD: GET Http data" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD: GET Http data" />
+    <MESSAGE value="ADD: POST HTML form" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD: POST HTML form" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
