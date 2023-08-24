@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6b8f8f-2cb2-4f0b-a244-6153c32512b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/reponse/ResponseJsonServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/domain/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/domain/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/test/java/hello/servlet/domain/member/MemberRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -51,6 +54,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="D:/unity/2020.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.17" />
@@ -63,12 +68,18 @@
       <recent name="C:\Users\ADMIN\IdeaProjects\servlet\servlet\src\main\resources\static\basic" />
       <recent name="C:\Users\ADMIN\IdeaProjects\servlet\servlet\src\main\resources\static" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hello.servlet.domain.member" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hello.servlet.basic.reponse" />
       <recent name="hello.servlet.basic.request" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MemberRepositoryTest.findAll">
     <configuration name="ServletApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -84,8 +95,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberRepositoryTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servlet.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.servlet.domain.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.servlet.domain.member" />
+      <option name="MAIN_CLASS_NAME" value="hello.servlet.domain.member.MemberRepositoryTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servlet.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.servlet.domain.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.servlet.domain.member" />
+      <option name="MAIN_CLASS_NAME" value="hello.servlet.domain.member.MemberRepositoryTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberRepositoryTest.findAll" />
+        <item itemvalue="JUnit.MemberRepositoryTest.save" />
         <item itemvalue="Application.ServletApplication" />
       </list>
     </recent_temporary>
@@ -183,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692422222151</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ADD : Json Response">
+      <created>1692422423618</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692422423618</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,7 +251,8 @@
     <MESSAGE value="ADD: ResponseHeaderServlet" />
     <MESSAGE value="REFACTOR : add response writer" />
     <MESSAGE value="ADD : Html Response" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : Html Response" />
+    <MESSAGE value="ADD : Json Response" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : Json Response" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
