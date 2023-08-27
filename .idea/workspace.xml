@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6b8f8f-2cb2-4f0b-a244-6153c32512b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servletmvc/MvcMemberFormServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/jsp/members.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/jsp/members/new-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/jsp/members/save.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/servlet.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/servlet.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/servlet.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/servlet.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +61,9 @@
     <property name="android.sdk.path" value="D:/unity/2020.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -63,8 +71,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ADMIN\IdeaProjects\servlet\servlet\src\main\resources\static\basic" />
       <recent name="C:\Users\ADMIN\IdeaProjects\servlet\servlet\src\main\resources\static" />
+      <recent name="C:\Users\ADMIN\IdeaProjects\servlet\servlet\src\main\resources\templates" />
+      <recent name="C:\Users\ADMIN\IdeaProjects\servlet\servlet\src\main\resources" />
+      <recent name="C:\Users\ADMIN\IdeaProjects\servlet\servlet\src\main\webapp" />
+      <recent name="C:\Users\ADMIN\IdeaProjects\servlet\servlet\src\main\resources\static\basic" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -268,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693108152460</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="REFACTOR : move directory">
+      <created>1693108365370</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1693108365370</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -290,7 +308,8 @@
     <MESSAGE value="ADD : Member repository test" />
     <MESSAGE value="ADD : Member Servlet" />
     <MESSAGE value="REFACTOR : update index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR : update index.html" />
+    <MESSAGE value="REFACTOR : move directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR : move directory" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
