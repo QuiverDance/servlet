@@ -6,13 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1c6b8f8f-2cb2-4f0b-a244-6153c32512b3" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servletmvc/MvcMemberFormServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/jsp/members.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/jsp/members/new-form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/jsp/members/save.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/servlet.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/servlet.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/servlet.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/servlet.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servletmvc/MvcMemberListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servletmvc/MvcMemberSaveServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF/views/members.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF/views/new-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF/views/save-result.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +82,7 @@
       <recent name="hello.servlet.domain.member" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.servlet.web.servletmvc" />
       <recent name="hello.servlet.basic.reponse" />
       <recent name="hello.servlet.basic.request" />
     </key>
@@ -286,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693108365370</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ADD : jsp form">
+      <created>1693111736464</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1693111736464</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -309,7 +315,8 @@
     <MESSAGE value="ADD : Member Servlet" />
     <MESSAGE value="REFACTOR : update index.html" />
     <MESSAGE value="REFACTOR : move directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR : move directory" />
+    <MESSAGE value="ADD : jsp form" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : jsp form" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
