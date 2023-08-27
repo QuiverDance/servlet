@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6b8f8f-2cb2-4f0b-a244-6153c32512b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/domain/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/domain/member/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/test/java/hello/servlet/domain/member/MemberRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servlet/MemberFormServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servlet/MemberListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servlet/MemberSaveServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/resources/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,7 +80,7 @@
       <recent name="hello.servlet.basic.request" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberRepositoryTest.findAll">
+  <component name="RunManager" selected="Application.ServletApplication">
     <configuration name="ServletApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -129,9 +130,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServletApplication" />
         <item itemvalue="JUnit.MemberRepositoryTest.findAll" />
         <item itemvalue="JUnit.MemberRepositoryTest.save" />
-        <item itemvalue="Application.ServletApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +236,28 @@
       <option name="project" value="LOCAL" />
       <updated>1692422423618</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ADD : Member domain">
+      <created>1692885374546</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692885374546</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ADD : Member repository">
+      <created>1692885385950</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1692885385950</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ADD : Member repository test">
+      <created>1692885395236</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1692885395237</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -252,7 +274,10 @@
     <MESSAGE value="REFACTOR : add response writer" />
     <MESSAGE value="ADD : Html Response" />
     <MESSAGE value="ADD : Json Response" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : Json Response" />
+    <MESSAGE value="ADD : Member domain" />
+    <MESSAGE value="ADD : Member repository" />
+    <MESSAGE value="ADD : Member repository test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : Member repository test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
