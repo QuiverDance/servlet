@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6b8f8f-2cb2-4f0b-a244-6153c32512b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servlet/MemberFormServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servlet/MemberListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servlet/MemberSaveServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692885395237</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ADD : Member Servlet">
+      <created>1693108124582</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1693108124582</updated>
+    </task>
+    <task id="LOCAL-00018" summary="REFACTOR : update index.html">
+      <created>1693108152460</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1693108152460</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -277,7 +288,9 @@
     <MESSAGE value="ADD : Member domain" />
     <MESSAGE value="ADD : Member repository" />
     <MESSAGE value="ADD : Member repository test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : Member repository test" />
+    <MESSAGE value="ADD : Member Servlet" />
+    <MESSAGE value="REFACTOR : update index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR : update index.html" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
