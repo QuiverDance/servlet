@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6b8f8f-2cb2-4f0b-a244-6153c32512b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/MyView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v2/ControllerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v2/FrontControllerServletV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v2/controller/MemberFormControllerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v2/controller/MemberListControllerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v2/controller/MemberSaveControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/ModelView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v3/ControllerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v3/FrontControllerServletV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v3/controller/MemberFormControllerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v3/controller/MemberListControllerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v3/controller/MemberSaveControllerV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v1/controller/MemberSaveControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v1/controller/MemberSaveControllerV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/MyView.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/MyView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +83,11 @@
       <recent name="hello.servlet.domain.member" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.servlet.web.frontcontroller.v3" />
+      <recent name="hello.servlet.web.frontcontroller.v3.controller" />
       <recent name="hello.servlet.web.frontcontroller.v2" />
       <recent name="hello.servlet.web.frontcontroller.v2.controller" />
       <recent name="hello.servlet.web.servletmvc" />
-      <recent name="hello.servlet.basic.reponse" />
-      <recent name="hello.servlet.basic.request" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ServletApplication">
@@ -316,7 +316,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693232344446</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="ADD : remove duplicated code in controller by using view structure">
+      <created>1693233184634</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1693233184634</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Refactor : revise a logic saving member">
+      <created>1693233223512</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1693233223512</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -342,7 +356,9 @@
     <MESSAGE value="ADD : jsp form" />
     <MESSAGE value="ADD : mvc controller and mvc form" />
     <MESSAGE value="ADD : frontController Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : frontController Structure" />
+    <MESSAGE value="ADD : remove duplicated code in controller by using view structure" />
+    <MESSAGE value="Refactor : revise a logic saving member" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor : revise a logic saving member" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
