@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6b8f8f-2cb2-4f0b-a244-6153c32512b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v4/ControllerV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v4/FrontControllerServletV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v4/controller/MemberFormControllerV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v4/controller/MemberListControllerV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v4/controller/MemberSaveControllerV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v5/FrontControllerServletV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v5/MyHandlerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v5/adapter/ControllerV3HandlerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v5/adapter/ControllerV4HandlerAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v3/FrontControllerServletV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v3/FrontControllerServletV3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v4/FrontControllerServletV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v4/FrontControllerServletV4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,11 +82,11 @@
       <recent name="hello.servlet.domain.member" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.servlet.web.frontcontroller.v5.adapter" />
       <recent name="hello.servlet.web.frontcontroller.v4" />
       <recent name="hello.servlet.web.frontcontroller.v4.controller" />
       <recent name="hello.servlet.web.frontcontroller.v3" />
       <recent name="hello.servlet.web.frontcontroller.v3.controller" />
-      <recent name="hello.servlet.web.frontcontroller.v2" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ServletApplication">
@@ -335,11 +336,17 @@
       <option name="project" value="LOCAL" />
       <updated>1693404976599</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="ADD : refactor impractical code">
+      <created>1693405863320</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1693405863320</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD: add servlet" />
     <MESSAGE value="ADD: http debug option" />
     <MESSAGE value="ADD: index &amp; basic html" />
     <MESSAGE value="ADD: request header servlet" />
@@ -364,7 +371,8 @@
     <MESSAGE value="ADD : remove duplicated code in controller by using view structure" />
     <MESSAGE value="Refactor : revise a logic saving member" />
     <MESSAGE value="ADD : remove duplicated viewName and servlet dependency by using viewResolver and Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : remove duplicated viewName and servlet dependency by using viewResolver and Model" />
+    <MESSAGE value="ADD : refactor impractical code" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : refactor impractical code" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
