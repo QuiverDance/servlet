@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6b8f8f-2cb2-4f0b-a244-6153c32512b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/springmvc/old/MyHttpRequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/springmvc/old/OldController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/springmvc/v1/SpringMemberFormControllerV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/springmvc/v1/SpringMemberListControllerV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/springmvc/v1/SpringMemberSaveControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/springmvc/v2/SpringMemberControllerV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,11 +352,17 @@
       <option name="project" value="LOCAL" />
       <updated>1693638647984</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="ADD : old spring mvc structure">
+      <created>1693726589988</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1693726589988</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD: request header servlet" />
     <MESSAGE value="ADD: GET Http data" />
     <MESSAGE value="ADD: POST HTML form" />
     <MESSAGE value="ADD: API string message body" />
@@ -386,7 +387,8 @@
     <MESSAGE value="ADD : refactor impractical code" />
     <MESSAGE value="REFACTOR : revise version in url" />
     <MESSAGE value="ADD : adapter structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : adapter structure" />
+    <MESSAGE value="ADD : old spring mvc structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : old spring mvc structure" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
