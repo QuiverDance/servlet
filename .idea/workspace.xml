@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6b8f8f-2cb2-4f0b-a244-6153c32512b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/springmvc/v2/SpringMemberControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/springmvc/v3/SpringMemberControllerV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -359,11 +359,17 @@
       <option name="project" value="LOCAL" />
       <updated>1693726589988</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="ADD : integrate controller class">
+      <created>1693726935152</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1693726935152</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD: GET Http data" />
     <MESSAGE value="ADD: POST HTML form" />
     <MESSAGE value="ADD: API string message body" />
     <MESSAGE value="ADD: Hello data" />
@@ -388,7 +394,8 @@
     <MESSAGE value="REFACTOR : revise version in url" />
     <MESSAGE value="ADD : adapter structure" />
     <MESSAGE value="ADD : old spring mvc structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : old spring mvc structure" />
+    <MESSAGE value="ADD : integrate controller class" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : integrate controller class" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
